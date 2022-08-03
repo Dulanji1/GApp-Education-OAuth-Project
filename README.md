@@ -21,7 +21,7 @@ Authorization Server
 The server issuing access tokens to the client after successfully authenticating the resource owner and obtaining authorization.
 
 
-##	Protocol Endpoints in OAuth 
+## Protocol Endpoints in OAuth 
 
 Authorization endpoint 
 Used by the client to obtain authorization from the resource owner via user-agent redirection. 
@@ -86,6 +86,8 @@ This are the main functionalities which we use OAuth in our web app.
 <img width="550" hight="600" alt=" " src="/resources/Picture11.png">
 <img width="550" hight="600" alt=" " src="/resources/Picture12.png">
 <img width="550" hight="600" alt=" " src="/resources/Picture13.png">
+
+
 ## App Screenshots
 
 <img width="550" hight="600" alt=" " src="/resources/Picture14.png">
