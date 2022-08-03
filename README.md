@@ -40,9 +40,59 @@ This are the main functionalities which we use OAuth in our web app.
 
 <img width="550" hight="600" alt=" " src="/resources/Picture0.jpg">
 
+## METHODOLOGY
+The first web authentication scheme is the Basic Auth Type also called 'Basic Authentication'. It 
+allows web servers to ask the credentials and get the token to access the browser in a way than 
+can browser understands. If the requested API call or server returns an HTTP response code of 
+401. It means that the application is required authentication. So, the application side adds a 
+special header to the response API. It commonly named WWW-Authenticate. When the browser 
+received the above response code and this header, the application shows a popup in-build or 
+common log-in dialog box.
+The best thing about the Basic Auth is its intelligibility. Developers do not have to develop a login screen. The browser handles all of that and the API call sends just username and password to 
+the server. It also gives the chance to the user handle the password in an especially thorough 
+browser whether by remembering it for the user, accessing it from a third-party plugin, or 
+accessing the user’s credentials from their browser history. 
+It shows the log-in option to enter the username and password which wants to get access and if 
+do. not any control over the look and feel of the log-in screen on the downside. If the user forgot 
+the password, it keeps adding a new account for access to the third-party application. 
+OAuth2 behaves and keeps access details as a secret. It is a set of details that only a particular 
+user can have and proves that you are you. That securest access detail is just more than a 
+username and password.
+
+This are the main functionalities which we use OAuth in our web app.
+- Integrating Google Sign-In into Web App / Google Sign-In
+- Getting The Token from The Refresh Token
+- List Drive Files
+- Upload A File to Google Drive
+- Delete Drive Files
+- Export a selected file
+- Create a Comment on a File
+- Get Comments on a File
+- Get All the Contacts / List Contacts
 
 
 
+## OAUTH SEQUENCE FLOW DIAGRAMS
+
+<img width="550" hight="600" alt=" " src="/resources/Picture2.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture3.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture4.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture5.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture6.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture7.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture8.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture9.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture10.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture11.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture12.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture13.png">
 ## App Screenshots
 
-
+<img width="550" hight="600" alt=" " src="/resources/Picture14.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture15.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture16.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture17.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture18.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture19.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture20.png">
+<img width="550" hight="600" alt=" " src="/resources/Picture21.png">
