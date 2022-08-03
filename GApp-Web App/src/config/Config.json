@@ -1,0 +1,5 @@
+{
+  "apiUrl": "http://localhost:5000/",
+  "contactUrl": "https://www.google.com/m8/feeds/contacts/",
+  "fileUploadUrl": "https://www.googleapis.com/upload/drive/v3/files?uploadType=media"
+}
